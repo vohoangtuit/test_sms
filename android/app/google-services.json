@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "969834668922",
+    "firebase_url": "https://read-sms-3dc56-default-rtdb.firebaseio.com",
+    "project_id": "read-sms-3dc56",
+    "storage_bucket": "read-sms-3dc56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969834668922:android:539e30122c06cfd6332cc3",
+        "android_client_info": {
+          "package_name": "com.example.tu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvswNGc_PYLLfzJLrSlpq4vnJ3r3buYNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969834668922:android:37437de97dfc2d64332cc3",
+        "android_client_info": {
+          "package_name": "vht.com.test.vn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvswNGc_PYLLfzJLrSlpq4vnJ3r3buYNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969834668922:android:f98a7b5d254aeb1a332cc3",
+        "android_client_info": {
+          "package_name": "vht.sms.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvswNGc_PYLLfzJLrSlpq4vnJ3r3buYNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

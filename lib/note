@@ -1,0 +1,28 @@
+// todo connect sourceGit: smb://108.108.111.33/SourceGit/TripUApp.git
+
+export PATH="/Users/vohoangtuit/DATA/DEVELOP/AndroidStudio/android_sdk/platform-tools"3
+1// nếu có thay đổi api_provider.dart thì run comment line để update api_provider.g.dart
+- export PATH="/Users/vohoangtuit/DATA/DEVELOP/AndroidStudio/flutter_sdk/flutter/bin:$PATH" // change path
+- export PATH="/Users/admin/VO_HOANG_TU/dev/AndroidStudio/sdk/flutter/bin:$PATH"
+- flutter pub run build_runner build // todo api
+- flutter packages pub run build_runner build // todo floor db
+
+todo update file pub
+> flutter clean
+> flutter pub get
+> cd ios
+> pod update || pod install // todo if error run:  'pod deintegrate' before
+
+
+2/ update flutter sdk
+Swich sdk
+> flutter channel stable // todo branch stable
+> flutter flutter channel beta // todo branch beta
+> flutter upgrade
+
+// TODO SHA1 /Users/admin/VO_HOANG_TU/my_project/test_sms/android
+ - debug run: keytool -list -v -keystore "/Users/admin/.android/debug.keystore" -alias androiddebugkey -storepass android -keypass android
+     => EB:63:D9:BE:3C:11:08:6E:FC:A6:1B:1E:B8:DC:4C:ED:89:1B:0D:59
+ - release run: keytool -list -v -keystore "/Users/admin/VO_HOANG_TU/my_project/test_sms/android/keystore/KeyStore" -alias ReadSMS -storepass SMS@2024 -keypass SMS@2024
+      =>  SHA1: 17:B9:DE:D9:9A:1C:64:B3:EC:99:B1:14:C5:E9:44:3D:9C:07:A9:64
+          SHA256: C6:56:9E:BA:57:C9:A0:F4:78:BC:3A:6B:22:D8:4F:50:47:DB:19:0E:EF:6C:4E:BE:37:89:16:C0:DD:5A:20:E1
